@@ -5,11 +5,11 @@
 100 -> 1 (1 + 0 + 0) 
 """
 
-num = 463;
-sum = 0;
+num = 463
+sum = 0
 
 while num > 0:
-    sum += num % 10;
-    num //= 10;
+    sum += num % 10
+    num //= 10
 
-print("Sum = ", + sum);
+print("Sum = ", + sum)

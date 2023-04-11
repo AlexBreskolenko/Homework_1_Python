@@ -8,22 +8,22 @@
 123456 -> no
 """
 
-ticketNumber = 123456;
+ticketNumber = 123456
 
-firstPart = ticketNumber // 1000;
-secondPart = ticketNumber % 1000;
+firstPart = ticketNumber // 1000
+secondPart = ticketNumber % 1000
 
-sumFirstPart = 0;
+sumFirstPart = 0
 while firstPart > 0:
 
-    sumFirstPart += firstPart % 10;
-    firstPart //= 10;
+    sumFirstPart += firstPart % 10
+    firstPart //= 10
 
-sumSecondPart = 0;
+sumSecondPart = 0
 while secondPart > 0:
 
-    sumSecondPart += secondPart % 10;
-    secondPart //= 10;
+    sumSecondPart += secondPart % 10
+    secondPart //= 10
 
 if sumFirstPart == sumSecondPart:
     print("{} -> yes".format(ticketNumber))
